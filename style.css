@@ -372,3 +372,22 @@ p{
   
 
 }
+
+@media(max-width: 413px){ 
+    #home-info .info-content{
+        padding-top: 40px;
+    }
+    
+    
+    .info-content p, h2{
+        font-size: 1rem;
+    }
+
+
+    .info-content .btn{
+       
+    }
+
+    
+
+}
