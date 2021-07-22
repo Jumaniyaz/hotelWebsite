@@ -319,6 +319,56 @@ p{
     .btn-light{
         margin-top: 10px;
     }
- 
+}
 
+    @media(max-width: 687px){ 
 
+     #features{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #features .box{
+        width: auto;
+    }
+
+    #testimonials{
+        height: auto;
+    }
+
+    #about-info .info-left{
+        width: 100%;
+    }
+
+    #about-info .info-right{
+        width: 100%;
+    }
+
+    .container{
+        display: grid;
+       
+    }
+
+    .container .box{
+        width: auto;
+    }
+
+    .container a{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #navbar ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #showcase .btn{
+       width: 50%;
+       transform: translate(50%);
+        
+    }
+  
+
+}
